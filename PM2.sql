@@ -1,8 +1,9 @@
-CREATE SCHEMA IF NOT EXISTS NeighborhoodRecommendationApplication;
-USE NeighborhoodRecommendationApplication;
+CREATE SCHEMA IF NOT EXISTS AboutSeattle;
+USE AboutSeattle;
 
 DROP TABLE IF EXISTS Residents;
 DROP TABLE IF EXISTS Crimes;
+DROP TABLE IF EXISTS RentalForecast;
 DROP TABLE IF EXISTS CurrentRental;
 DROP TABLE IF EXISTS HistoricalRental;
 DROP TABLE IF EXISTS Residence; 
@@ -14,66 +15,63 @@ DROP TABLE IF EXISTS ZipCodes;
 
 CREATE TABLE ZipCodes (
 ZipCode INT NOT NULL,
-Latitude DECIMAL NOT NULL,
-Longitude DECIMAL NOT NULL,
-Beat VARCHAR(255) NOT NULL,
-CONSTRAINT uk_ZipCodes_Location
-	UNIQUE KEY (Latitude,Longitude),
-CONSTRAINT uk_ZipCodes_Beat
-	UNIQUE KEY (Beat),
+City VARCHAR(100),
+County VARCHAR(100),
+State VARCHAR(2),
 CONSTRAINT pk_ZipCodes_ZipCode
 	PRIMARY KEY (ZipCode)
 );
 
-CREATE TABLE Permits (
-PermitId INT NOT NULL,
-Category ENUM('COMMERCIAL','INDUSTRIAL','INSTITUTIONAL','MULTIFAMILY','SINGLE FAMILY/DUPLEX'),
-Latitude DECIMAL,
-Longitude DECIMAL,
-Description LONGTEXT NOT NULL,
-PermitDetails LONGTEXT NOT NULL,
-Value INT NOT NULL,
-Applicant VARCHAR(255) NOT NULL,
-ApplicationDate DATE NOT NULL,
-IssueDate DATE NOT NULL,
-Status VARCHAR(255) NOT NULL,
-Contractor VARCHAR(255) NOT NULL,
-CONSTRAINT pk_Permits_PermitId
-	PRIMARY KEY (PermitId),
-CONSTRAINT fk_Permits_Location
-	FOREIGN KEY (Latitude,Longitude)
-    REFERENCES ZipCodes(Latitude,Longitude)
-    ON UPDATE CASCADE ON DELETE SET NULL
-);
+-- CREATE TABLE Permits (
+-- PermitId INT NOT NULL,
+-- Category ENUM('COMMERCIAL','INDUSTRIAL','INSTITUTIONAL','MULTIFAMILY','SINGLE FAMILY/DUPLEX'),
+-- Latitude DECIMAL,
+-- Longitude DECIMAL,
+-- Zipcode INT NOT NULL,
+-- Description LONGTEXT NOT NULL,
+-- PermitDetails LONGTEXT NOT NULL,
+-- Value INT NOT NULL,
+-- Applicant VARCHAR(255) NOT NULL,
+-- ApplicationDate DATE NOT NULL,
+-- IssueDate DATE NOT NULL,
+-- Status VARCHAR(255) NOT NULL,
+-- Contractor VARCHAR(255) NOT NULL,
+-- CONSTRAINT pk_Permits_PermitId
+-- 	PRIMARY KEY (PermitId),
+-- CONSTRAINT fk_Permits_Location
+-- 	FOREIGN KEY (Zipcode)
+--     REFERENCES ZipCodes(Zipcode)
+--     ON UPDATE CASCADE ON DELETE SET NULL
+-- );
 
-CREATE TABLE LandUsePermit (
-PermitId INT NOT NULL,
-LandUsePermitType VARCHAR(255) NOT NULL,
-DecisionType ENUM('I','II','III','IV','V'),
-DecisionReview BOOLEAN,
-DecisionDate DATE NOT NULL,
-CONSTRAINT pk_LandUsePermit_PermitId
-	PRIMARY KEY (PermitId),
-CONSTRAINT fk_LandUsePermit_PermitId
-	FOREIGN KEY (PermitId)
-    REFERENCES Permits(PermitId)
-    ON UPDATE CASCADE ON DELETE CASCADE
-);
-
-CREATE TABLE BuildingPermit (
-PermitId INT NOT NULL,
-BuildingPermitType ENUM('CONSTRUCTION','DEMOLITION','SITE DEVELOPMENT'),
-ActionType VARCHAR(255) NOT NULL,
-PlanReview BOOLEAN,
-FinalDate DATE NOT NULL,
-ExpirationDate DATE NOT NULL,
-CONSTRAINT pk_BuildingPermit_PermitId
-	PRIMARY KEY (PermitId),
-CONSTRAINT fk_BuildingPermit_PermitId
-	FOREIGN KEY (PermitId)
-    REFERENCES Permits(PermitId)
-    ON UPDATE CASCADE ON DELETE CASCADE
-);
+-- CREATE TABLE LandUsePermit (
+-- PermitId INT NOT NULL,
+-- LandUsePermitType VARCHAR(255) NOT NULL,
+-- DecisionType ENUM('I','II','III','IV','V'),
+-- DecisionReview BOOLEAN,
+-- DecisionDate DATE NOT NULL,
+-- CONSTRAINT pk_LandUsePermit_PermitId
+-- 	PRIMARY KEY (PermitId),
+-- CONSTRAINT fk_LandUsePermit_PermitId
+-- 	FOREIGN KEY (PermitId)
+--     REFERENCES Permits(PermitId)
+--     ON UPDATE CASCADE ON DELETE CASCADE
+-- );
+-- 
+-- CREATE TABLE BuildingPermit (
+-- PermitId INT NOT NULL,
+-- BuildingPermitType ENUM('CONSTRUCTION','DEMOLITION','SITE DEVELOPMENT'),
+-- ActionType VARCHAR(255) NOT NULL,
+-- PlanReview BOOLEAN,
+-- FinalDate DATE NOT NULL,
+-- ExpirationDate DATE NOT NULL,
+-- CONSTRAINT pk_BuildingPermit_PermitId
+-- 	PRIMARY KEY (PermitId),
+-- CONSTRAINT fk_BuildingPermit_PermitId
+-- 	FOREIGN KEY (PermitId)
+--     REFERENCES Permits(PermitId)
+--     ON UPDATE CASCADE ON DELETE CASCADE
+-- );
 
 
 CREATE TABLE PropertyName (
@@ -124,6 +122,27 @@ CONSTRAINT fk_HistoricalRental_ZipCode
     ON UPDATE CASCADE ON DELETE CASCADE
 );
 
+-- CREATE TABLE RentalForecast (
+-- 	RunDate Date,
+--     RegionName INT NOT NULL,
+--     State VARCHAR(2) NOT NULL,
+--     Metro VARCHAR(255) NOT NULL,
+--     County VARCHAR(255) NOT NULL,
+--     City VARCHAR(255) NOT NULL,
+--     SizeRank INT,	
+--     Zri	INT,
+--     MoM	DECIMAL,
+--     QoQ	DECIMAL,
+--     YoY	DECIMAL,
+--     ZriRecordCnt INT,
+--     CONSTRAINT pk_RentalForecast_RegionName 
+-- 		PRIMARY KEY (RegionName),
+--     CONSTRAINT fk_RentalForecast_RegionName 
+-- 		FOREIGN KEY (RegionName)
+-- 		REFERENCES ZipCodes(ZipCode)
+--         ON UPDATE CASCADE ON DELETE SET NULL
+-- );
+
 CREATE TABLE Crimes(
 ReportId BIGINT AUTO_INCREMENT,
 ReportedDate DATETIME NOT NULL,
@@ -159,52 +178,45 @@ CONSTRAINT fk_Residents_ZipCode
 );
 
 
-   LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/ZipCodes.csv' INTO TABLE ZipCodes
-  # Fields are not quoted.
+   LOAD DATA LOCAL INFILE 'Users/Sunshinefield/Documents/NEU MS CS/CS5200 - Database Management/CS5200---AboutSeattle/Zipcodes.csv' INTO TABLE ZipCodes
+  # Fields are not quoted. Windows platforms may need '\r\n'.
   FIELDS TERMINATED BY ','
-  # Windows platforms may need '\r\n'.#  # Windows platforms may need '\r\n'.
   LINES TERMINATED BY '\n'
   IGNORE 1 LINES;
   
-  LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/Permits.csv' INTO TABLE Permits
-  # Fields are not quoted.
-  FIELDS TERMINATED BY ','
-  # Windows platforms may need '\r\n'.#  # Windows platforms may need '\r\n'.
-  LINES TERMINATED BY '\n'
-  IGNORE 1 LINES;         
-  
-  LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/LandUsePermit.csv' INTO TABLE LandUsePermits
-  # Fields are not quoted.
-  FIELDS TERMINATED BY ','
-  # Windows platforms may need '\r\n'.#  # Windows platforms may need '\r\n'.
-  LINES TERMINATED BY '\n'
-  IGNORE 1 LINES;
-    
-  LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/PropertyName.csv' INTO TABLE PropertyName
-  # Fields are not quoted.
-  FIELDS TERMINATED BY ','
-  # Windows platforms may need '\r\n'.#  # Windows platforms may need '\r\n'.
-  LINES TERMINATED BY '\n'
-  IGNORE 1 LINES;
+--   LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/Permits.csv' INTO TABLE Permits
+--   # Fields are not quoted.
+--   FIELDS TERMINATED BY ','
+--   LINES TERMINATED BY '\n'
+--   IGNORE 1 LINES;         
+--   
+--   LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/LandUsePermit.csv' INTO TABLE LandUsePermits
+--   # Fields are not quoted.
+--   FIELDS TERMINATED BY ','
+--   LINES TERMINATED BY '\n'
+--   IGNORE 1 LINES;
+--     
+--   LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/PropertyName.csv' INTO TABLE PropertyName
+--   # Fields are not quoted.
+--   FIELDS TERMINATED BY ','
+--   LINES TERMINATED BY '\n'
+--   IGNORE 1 LINES;
   
 	LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/CurrentRental.csv' INTO TABLE CurrentRental
   # Fields are not quoted.
   FIELDS TERMINATED BY ','
-  # Windows platforms may need '\r\n'.#  # Windows platforms may need '\r\n'.
   LINES TERMINATED BY '\n'
   IGNORE 1 LINES;
   
    LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/HistoricalRental.csv' INTO TABLE HistoricalRental
   # Fields are not quoted.
   FIELDS TERMINATED BY ','
-  # Windows platforms may need '\r\n'.#  # Windows platforms may need '\r\n'.
   LINES TERMINATED BY '\n'
   IGNORE 1 LINES;
 
 LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/Crime_Data.csv' INTO TABLE Crimes
   # Fields are not quoted.
   FIELDS TERMINATED BY ','
-  # Windows platforms may need '\r\n'.#  # Windows platforms may need '\r\n'.
   LINES TERMINATED BY '\n'
   IGNORE 1 LINES
   (@col1,@col2,@col3,@col4,@col5,@col6,@col7,@col8,@col9,@col10,@col11) 
@@ -213,7 +225,6 @@ LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/Crime_Data.csv' INTO TABLE Crimes
   LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/Residents.csv' INTO TABLE Residents
   # Fields are not quoted.
   FIELDS TERMINATED BY ','
-  # Windows platforms may need '\r\n'.#  # Windows platforms may need '\r\n'.
   LINES TERMINATED BY '\n'
   IGNORE 1 LINES;
  
