@@ -3,6 +3,7 @@ USE NeighborhoodRecommendationApplication;
 
 DROP TABLE IF EXISTS Residents;
 DROP TABLE IF EXISTS Crimes;
+DROP TABLE IF EXISTS Beat;
 DROP TABLE IF EXISTS CurrentRental;
 DROP TABLE IF EXISTS HistoricalRental;
 DROP TABLE IF EXISTS Residence; 
@@ -10,19 +11,30 @@ DROP TABLE IF EXISTS PropertyName;
 DROP TABLE IF EXISTS LandUsePermit;
 DROP TABLE IF EXISTS BuildingPermit;
 DROP TABLE IF EXISTS Permits;
+DROP TABLE IF EXISTS Beat;
 DROP TABLE IF EXISTS ZipCodes;
 
 CREATE TABLE ZipCodes (
 ZipCode INT NOT NULL,
 Latitude DECIMAL NOT NULL,
 Longitude DECIMAL NOT NULL,
-Beat VARCHAR(255) NOT NULL,
 CONSTRAINT uk_ZipCodes_Location
 	UNIQUE KEY (Latitude,Longitude),
-CONSTRAINT uk_ZipCodes_Beat
-	UNIQUE KEY (Beat),
 CONSTRAINT pk_ZipCodes_ZipCode
 	PRIMARY KEY (ZipCode)
+);
+
+CREATE TABLE Beat (
+Beat VARCHAR(255) NOT NULL,
+Latitude DECIMAL NOT NULL,
+Longitude DECIMAL NOT NULL,
+ZipCode INT,
+CONSTRAINT pk_Beat_Name
+	PRIMARY KEY (Beat),
+CONSTRAINT fk_Beat_ZipCode
+	FOREIGN KEY (ZipCode)
+    REFERENCES ZipCodes(ZipCode)
+    ON UPDATE CASCADE ON DELETE SET NULL
 );
 
 CREATE TABLE Permits (
@@ -139,7 +151,7 @@ CONSTRAINT pk_Crimes_ReportId
 	PRIMARY KEY (ReportId),
 CONSTRAINT fk_Crimes_Beat
 	FOREIGN KEY (Beat)
-    REFERENCES ZipCodes(Beat)
+    REFERENCES Beat(Beat)
     ON UPDATE CASCADE ON DELETE SET NULL #beats get edited all the time and I don't want the crime to disappear just because where it took place has changed.
 );
 
@@ -164,7 +176,18 @@ CONSTRAINT fk_Residents_ZipCode
   FIELDS TERMINATED BY ','
   # Windows platforms may need '\r\n'.#  # Windows platforms may need '\r\n'.
   LINES TERMINATED BY '\n'
-  IGNORE 1 LINES;
+  IGNORE 1 LINES
+	(@col1,@col2,@col3,@col4,@col5,@col6,@col7,@col8,@col9,@col10) 
+  SET ZipCode=@col5,Latitude=@col3,Longitude=@col4;
+  
+  LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/Beats.csv' INTO TABLE Beat
+  # Fields are not quoted.
+  FIELDS TERMINATED BY ','
+  # Windows platforms may need '\r\n'.#  # Windows platforms may need '\r\n'.
+  LINES TERMINATED BY '\n'
+  IGNORE 1 LINES
+  (@col1,@col2,@col3,@col4,@col5) 
+  SET Beat=@col1,Latitude=@col3,Longitude=@col4,ZipCode=@col5;
   
   LOAD DATA LOCAL INFILE '/Users/Goch/Desktop/Permits.csv' INTO TABLE Permits
   # Fields are not quoted.
