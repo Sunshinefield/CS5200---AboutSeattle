@@ -1,0 +1,369 @@
+Date,RegionName,State,Metro,County,City,SizeRank,Zri,YoY,ZriRecordCnt
+9/30/18,98052,WA,Seattle-Tacoma-Bellevue,King,Redmond,75,2586,-0.052400147,19679
+9/30/18,98012,WA,Seattle-Tacoma-Bellevue,Snohomish,Bothell,152,2294,-0.041771094,20473
+9/30/18,98103,WA,Seattle-Tacoma-Bellevue,King,Seattle,189,2569,-0.074234234,17641
+9/30/18,99301,WA,Kennewick-Richland,Franklin,Pasco,191,1340,-0.002233805,19462
+9/30/18,98115,WA,Seattle-Tacoma-Bellevue,King,Seattle,347,2637,-0.088174274,18358
+9/30/18,98682,WA,Portland-Vancouver-Hillsboro,Clark,Vancouver,360,1655,0.004857316,16768
+9/30/18,98133,WA,Seattle-Tacoma-Bellevue,King,Shoreline,406,2284,-0.011683254,14257
+9/30/18,99208,WA,Spokane-Spokane Valley,Spokane,Spokane,427,1438,0.017692852,16369
+9/30/18,98122,WA,Seattle-Tacoma-Bellevue,King,Seattle,433,2438,-0.074411541,10018
+9/30/18,98632,WA,Longview,Cowlitz,Longview,484,1294,-0.03071161,15339
+9/30/18,98208,WA,Seattle-Tacoma-Bellevue,Snohomish,Seattle Hill-Silver Firs,547,2141,0.003280225,16212
+9/30/18,98034,WA,Seattle-Tacoma-Bellevue,King,Kirkland,586,2399,-0.032271077,18128
+9/30/18,98225,WA,Bellingham,Whatcom,Bellingham,668,1534,-0.063492063,13469
+9/30/18,99336,WA,Kennewick-Richland,Benton,Kennewick,690,1303,0.001537279,10921
+9/30/18,98109,WA,Seattle-Tacoma-Bellevue,King,Seattle,804,2338,-0.065920895,7472
+9/30/18,98125,WA,Seattle-Tacoma-Bellevue,King,Seattle,823,2355,-0.047330097,12152
+9/30/18,98661,WA,Portland-Vancouver-Hillsboro,Clark,Vancouver,831,1635,0.009259259,11291
+9/30/18,98003,WA,Seattle-Tacoma-Bellevue,King,Federal Way,933,1935,0.022187005,11045
+9/30/18,98391,WA,Seattle-Tacoma-Bellevue,Pierce,Bonney Lake,997,1945,0.027469625,16182
+9/30/18,98270,WA,Seattle-Tacoma-Bellevue,Snohomish,Marysville,1061,1893,-0.002634352,15559
+9/30/18,98226,WA,Bellingham,Whatcom,Bellingham,1076,1594,-0.079676674,13678
+9/30/18,98501,WA,Olympia-Tumwater,Thurston,Olympia,1115,1691,-0.008211144,14527
+9/30/18,98004,WA,Seattle-Tacoma-Bellevue,King,Bellevue,1133,3221,-0.043077837,11978
+9/30/18,98105,WA,Seattle-Tacoma-Bellevue,King,Seattle,1148,2823,-0.091990994,8981
+9/30/18,98118,WA,Seattle-Tacoma-Bellevue,King,Seattle,1165,2314,-0.029362416,13016
+9/30/18,98204,WA,Seattle-Tacoma-Bellevue,Snohomish,Paine Field-Lake Stickney,1182,1769,0.007977208,8204
+9/30/18,99205,WA,Spokane-Spokane Valley,Spokane,Spokane,1194,1121,0.049625468,17239
+9/30/18,98023,WA,Seattle-Tacoma-Bellevue,King,Federal Way,1197,2049,0.010853478,14230
+9/30/18,98387,WA,Seattle-Tacoma-Bellevue,Pierce,Spanaway,1204,1660,0.01965602,14474
+9/30/18,98258,WA,Seattle-Tacoma-Bellevue,Snohomish,Lake Stevens,1214,1992,-0.011904762,15319
+9/30/18,98837,WA,Moses Lake,Grant,Moses Lake,1263,1049,0.049,9708
+9/30/18,98277,WA,Oak Harbor,Island,Oak Harbor,1324,1573,0.005754476,13937
+9/30/18,98033,WA,Seattle-Tacoma-Bellevue,King,Kirkland,1370,2689,-0.057813595,15636
+9/30/18,98042,WA,Seattle-Tacoma-Bellevue,King,Kent,1378,2200,0.0087116,15186
+9/30/18,99362,WA,Walla Walla,Walla Walla,Walla Walla,1404,1315,0.053685897,10712
+9/30/18,98801,WA,Wenatchee,Chelan,Wenatchee,1422,1539,0.030810449,13595
+9/30/18,98902,WA,Yakima,Yakima,Yakima,1425,1040,0.044176707,13078
+9/30/18,98102,WA,Seattle-Tacoma-Bellevue,King,Seattle,1545,2289,-0.062653563,7617
+9/30/18,98092,WA,Seattle-Tacoma-Bellevue,King,Auburn,1594,2141,-0.013818517,13339
+9/30/18,98058,WA,Seattle-Tacoma-Bellevue,King,Renton,1660,2239,-0.002228164,13399
+9/30/18,98223,WA,Seattle-Tacoma-Bellevue,Snohomish,Arlington,1714,1935,-0.01174668,12944
+9/30/18,98036,WA,Seattle-Tacoma-Bellevue,Snohomish,Lynnwood,1772,2198,-0.032570423,11481
+9/30/18,98503,WA,Olympia-Tumwater,Thurston,Lacey,1775,1590,0.031128405,11273
+9/30/18,98382,WA,Port Angeles,Clallam,Sequim,1841,1499,-0.044614404,13343
+9/30/18,98584,WA,Shelton,Mason,Shelton,1983,1377,0.114979757,12090
+9/30/18,98908,WA,Yakima,Yakima,Yakima,1985,1439,0.012667136,12250
+9/30/18,98026,WA,Seattle-Tacoma-Bellevue,Snohomish,Edmonds,2022,2240,-0.044368601,13375
+9/30/18,99206,WA,Spokane-Spokane Valley,Spokane,Spokane Valley,2071,1328,-0.005243446,11492
+9/30/18,98502,WA,Olympia-Tumwater,Thurston,Olympia,2124,1711,-0.012124711,11516
+9/30/18,98087,WA,Seattle-Tacoma-Bellevue,Snohomish,Lynnwood,2129,2140,0.001872659,9660
+9/30/18,98374,WA,Seattle-Tacoma-Bellevue,Pierce,South Hill,2134,1839,0.02852349,12243
+9/30/18,99352,WA,Kennewick-Richland,Benton,Richland,2137,1623,-0.005514706,10244
+9/30/18,98056,WA,Seattle-Tacoma-Bellevue,King,Renton,2163,2294,-0.023829787,10547
+9/30/18,98366,WA,Bremerton-Silverdale,Kitsap,Port Orchard,2185,1591,0.013375796,11342
+9/30/18,98198,WA,Seattle-Tacoma-Bellevue,King,Des Moines,2218,2001,0.009077156,10441
+9/30/18,98107,WA,Seattle-Tacoma-Bellevue,King,Seattle,2247,2511,-0.08021978,8274
+9/30/18,98117,WA,Seattle-Tacoma-Bellevue,King,Seattle,2265,2626,-0.082459818,12923
+9/30/18,98006,WA,Seattle-Tacoma-Bellevue,King,Bellevue,2316,2956,-0.054685002,14715
+9/30/18,98032,WA,Seattle-Tacoma-Bellevue,King,Kent,2326,1970,0.022845275,8079
+9/30/18,98155,WA,Seattle-Tacoma-Bellevue,King,Shoreline,2331,2298,-0.022959184,12281
+9/30/18,98059,WA,Seattle-Tacoma-Bellevue,King,Renton,2355,2425,-0.023752013,12453
+9/30/18,99223,WA,Spokane-Spokane Valley,Spokane,Spokane,2410,1461,-0.04259502,10108
+9/30/18,98312,WA,Bremerton-Silverdale,Kitsap,Bremerton,2451,1533,0.033715442,10551
+9/30/18,98031,WA,Seattle-Tacoma-Bellevue,King,Kent,2468,2145,0.000466418,10585
+9/30/18,98203,WA,Seattle-Tacoma-Bellevue,Snohomish,Everett,2504,1848,-0.034482759,11328
+9/30/18,98683,WA,Portland-Vancouver-Hillsboro,Clark,Vancouver,2522,1849,0.003800217,9347
+9/30/18,99163,WA,Pullman,Whitman,Pullman,2534,1399,0.020423049,5629
+9/30/18,98121,WA,Seattle-Tacoma-Bellevue,King,Seattle,2539,2212,-0.031099431,6199
+9/30/18,98002,WA,Seattle-Tacoma-Bellevue,King,Auburn,2580,1848,0.01706109,7612
+9/30/18,98229,WA,Bellingham,Whatcom,Bellingham,2595,1697,-0.06398235,11652
+9/30/18,98604,WA,Portland-Vancouver-Hillsboro,Clark,Battle Ground,2627,1893,0.023796647,11072
+9/30/18,98926,WA,Ellensburg,Kittitas,Ellensburg,2639,1590,0.031128405,8943
+9/30/18,98116,WA,Seattle-Tacoma-Bellevue,King,Seattle,2656,2557,-0.089711641,9660
+9/30/18,98370,WA,Bremerton-Silverdale,Kitsap,Poulsbo,2686,1868,-0.032625583,10673
+9/30/18,98144,WA,Seattle-Tacoma-Bellevue,King,Seattle,2709,2459,-0.055683564,9115
+9/30/18,98201,WA,Seattle-Tacoma-Bellevue,Snohomish,Everett,2778,1690,0.022383545,8527
+9/30/18,98444,WA,Seattle-Tacoma-Bellevue,Pierce,Parkland,2841,1508,0.024456522,7818
+9/30/18,98499,WA,Seattle-Tacoma-Bellevue,Pierce,Lakewood,2942,1587,0.031859558,6841
+9/30/18,98168,WA,Seattle-Tacoma-Bellevue,King,Burien,2951,1990,-0.001505268,9118
+9/30/18,98662,WA,Portland-Vancouver-Hillsboro,Clark,Five Corners,2957,1646,0.002436054,10659
+9/30/18,98290,WA,Seattle-Tacoma-Bellevue,Snohomish,Snohomish,2985,2135,-0.036986919,11571
+9/30/18,98030,WA,Seattle-Tacoma-Bellevue,King,Kent,3004,2082,0.01412567,8567
+9/30/18,98513,WA,Olympia-Tumwater,Thurston,Lacey,3029,1612,0.012562814,12075
+9/30/18,98027,WA,Seattle-Tacoma-Bellevue,King,Issaquah,3122,2515,-0.076725404,9598
+9/30/18,98119,WA,Seattle-Tacoma-Bellevue,King,Seattle,3168,2614,-0.099552187,7650
+9/30/18,99207,WA,Spokane-Spokane Valley,Spokane,Spokane,3208,938,0.035320088,10421
+9/30/18,98038,WA,Seattle-Tacoma-Bellevue,King,Maple Valley,3215,2303,-0.010738832,11723
+9/30/18,98335,WA,Seattle-Tacoma-Bellevue,Pierce,Gig Harbor,3425,2205,0.004555809,9926
+9/30/18,98512,WA,Olympia-Tumwater,Thurston,Tumwater,3430,1688,-0.020881671,9220
+9/30/18,98466,WA,Seattle-Tacoma-Bellevue,Pierce,University Place,3458,1927,0.0349087,8282
+9/30/18,98498,WA,Seattle-Tacoma-Bellevue,Pierce,Lakewood,3489,1690,0.032376298,9828
+9/30/18,98273,WA,Mount Vernon-Anacortes,Skagit,Mount Vernon,3572,1651,0.010403917,8194
+9/30/18,98029,WA,Seattle-Tacoma-Bellevue,King,Issaquah,3581,2500,-0.053747161,10290
+9/30/18,98362,WA,Port Angeles,Clallam,Port Angeles,3633,1440,0.007697691,9338
+9/30/18,98007,WA,Seattle-Tacoma-Bellevue,King,Bellevue,3672,2398,-0.029542695,6511
+9/30/18,98607,WA,Portland-Vancouver-Hillsboro,Clark,Camas,3697,2107,-0.054733064,10593
+9/30/18,98684,WA,Portland-Vancouver-Hillsboro,Clark,Vancouver,3727,1671,0.003603604,7901
+9/30/18,98802,WA,Wenatchee,Douglas,East Wenatchee Bench,3771,1640,0.006134969,8025
+9/30/18,98445,WA,Seattle-Tacoma-Bellevue,Pierce,Parkland,3798,1628,0.026481715,9859
+9/30/18,98001,WA,Seattle-Tacoma-Bellevue,King,Auburn,3847,2045,0.003927344,10398
+9/30/18,98404,WA,Seattle-Tacoma-Bellevue,Pierce,Tacoma,3848,1517,0.033378747,9799
+9/30/18,99216,WA,Spokane-Spokane Valley,Spokane,Spokane Valley,3854,1294,-0.012967201,6595
+9/30/18,98021,WA,Seattle-Tacoma-Bellevue,Snohomish,Bothell,3870,2413,-0.018706791,9794
+9/30/18,99337,WA,Kennewick-Richland,Benton,Kennewick,3896,1497,-0.022207707,7404
+9/30/18,98665,WA,Portland-Vancouver-Hillsboro,Clark,Hazel Dell North,3950,1694,-0.01910828,7788
+9/30/18,98271,WA,Seattle-Tacoma-Bellevue,Snohomish,Marysville,3983,1818,0.001101322,9155
+9/30/18,98146,WA,Seattle-Tacoma-Bellevue,King,Burien,3997,2149,-0.028920018,8213
+9/30/18,98373,WA,Seattle-Tacoma-Bellevue,Pierce,Puyallup,4046,1784,0.029428736,7090
+9/30/18,98011,WA,Seattle-Tacoma-Bellevue,Snohomish,Bothell,4112,2427,-0.024517685,7768
+9/30/18,98101,WA,Seattle-Tacoma-Bellevue,King,Seattle,4152,2340,-0.052631579,3398
+9/30/18,98901,WA,Yakima,Yakima,Yakima,4159,1044,0.015564202,7362
+9/30/18,98112,WA,Seattle-Tacoma-Bellevue,King,Seattle,4188,3150,-0.105621806,7976
+9/30/18,98405,WA,Seattle-Tacoma-Bellevue,Pierce,Tacoma,4193,1589,0.034505208,7730
+9/30/18,98037,WA,Seattle-Tacoma-Bellevue,Snohomish,Lynnwood,4197,2196,-0.031318924,7557
+9/30/18,98040,WA,Seattle-Tacoma-Bellevue,King,Mercer Island,4213,4320,-0.081242025,8457
+9/30/18,98685,WA,Portland-Vancouver-Hillsboro,Clark,Salmon Creek,4233,1905,0.010074231,9914
+9/30/18,98531,WA,Centralia,Lewis,Centralia,4240,1099,0.023277467,7084
+9/30/18,98110,WA,Bremerton-Silverdale,Kitsap,Bainbridge Island,4247,3042,0.010295583,9851
+9/30/18,98221,WA,Mount Vernon-Anacortes,Skagit,Anacortes,4261,1890,0.04767184,11610
+9/30/18,98106,WA,Seattle-Tacoma-Bellevue,King,Seattle,4264,2199,-0.024833703,7711
+9/30/18,98367,WA,Bremerton-Silverdale,Kitsap,Port Orchard,4294,1774,0.000564016,9319
+9/30/18,98409,WA,Seattle-Tacoma-Bellevue,Pierce,Tacoma,4366,1442,0.03073624,6804
+9/30/18,98375,WA,Seattle-Tacoma-Bellevue,Pierce,South Hill,4434,1794,0.013559322,9364
+9/30/18,98072,WA,Seattle-Tacoma-Bellevue,King,Woodinville,4437,2631,-0.043272727,7906
+9/30/18,98626,WA,Longview,Cowlitz,Kelso,4453,1291,-0.027128862,7538
+9/30/18,98338,WA,Seattle-Tacoma-Bellevue,Pierce,Graham,4485,1844,0.042986425,7826
+9/30/18,98516,WA,Olympia-Tumwater,Thurston,Lacey,4499,1740,0.002304147,8608
+9/30/18,98126,WA,Seattle-Tacoma-Bellevue,King,Seattle,4505,2378,-0.041515518,7744
+9/30/18,98372,WA,Seattle-Tacoma-Bellevue,Pierce,Puyallup,4530,1888,0.044825678,7198
+9/30/18,98248,WA,Bellingham,Whatcom,Ferndale,4630,1543,-0.084816133,7308
+9/30/18,98383,WA,Bremerton-Silverdale,Kitsap,Silverdale,4660,1796,-0.002776235,5523
+9/30/18,98284,WA,Mount Vernon-Anacortes,Skagit,Sedro-Woolley,4714,1624,0.065616798,7861
+9/30/18,98311,WA,Bremerton-Silverdale,Kitsap,Bremerton,4734,1644,0.008588957,8143
+9/30/18,98272,WA,Seattle-Tacoma-Bellevue,Snohomish,Monroe,4758,1996,-0.045889101,7756
+9/30/18,98371,WA,Seattle-Tacoma-Bellevue,Pierce,Puyallup,4763,1846,0.033016228,7037
+9/30/18,98188,WA,Seattle-Tacoma-Bellevue,King,Seatac,4803,1947,0.002058672,5926
+9/30/18,98597,WA,Olympia-Tumwater,Thurston,Yelm,4815,1525,0.040955631,7750
+9/30/18,99354,WA,Kennewick-Richland,Benton,Richland,4855,1456,0.01181376,7067
+9/30/18,98008,WA,Seattle-Tacoma-Bellevue,King,Bellevue,4872,2639,-0.035100548,8684
+9/30/18,98199,WA,Seattle-Tacoma-Bellevue,King,Seattle,4888,2881,-0.079258549,8327
+9/30/18,98406,WA,Seattle-Tacoma-Bellevue,Pierce,Tacoma,4902,1941,0.026984127,7856
+9/30/18,98166,WA,Seattle-Tacoma-Bellevue,King,Burien,4927,2333,-0.037938144,7337
+9/30/18,98055,WA,Seattle-Tacoma-Bellevue,King,Renton,4951,2119,-0.010275572,6373
+9/30/18,98664,WA,Portland-Vancouver-Hillsboro,Clark,Vancouver,4982,1637,0.006146281,7540
+9/30/18,98178,WA,Seattle-Tacoma-Bellevue,King,Bryn Mawr-Skyway,4985,2139,-0.029491833,7630
+9/30/18,98671,WA,Portland-Vancouver-Hillsboro,Clark,Washougal,4995,1843,-0.011266094,8181
+9/30/18,99203,WA,Spokane-Spokane Valley,Spokane,Spokane,5005,1443,-0.015017065,8314
+9/30/18,98028,WA,Seattle-Tacoma-Bellevue,King,Kenmore,5013,2460,-0.031496063,7999
+9/30/18,98074,WA,Seattle-Tacoma-Bellevue,King,Sammamish,5015,2854,-0.052771324,9487
+9/30/18,98292,WA,Seattle-Tacoma-Bellevue,Snohomish,Stanwood,5049,1997,-0.041746641,7324
+9/30/18,98310,WA,Bremerton-Silverdale,Kitsap,Bremerton,5069,1490,0.031855956,6492
+9/30/18,98407,WA,Seattle-Tacoma-Bellevue,Pierce,Tacoma,5072,1926,0.032154341,8142
+9/30/18,98275,WA,Seattle-Tacoma-Bellevue,Snohomish,Mukilteo,5083,2423,-0.027298274,7516
+9/30/18,98532,WA,Centralia,Lewis,Chehalis,5087,1254,0.088541667,7159
+9/30/18,98020,WA,Seattle-Tacoma-Bellevue,Snohomish,Edmonds,5127,2564,-0.014982712,8173
+9/30/18,99224,WA,Spokane-Spokane Valley,Spokane,Spokane,5149,1499,-0.025990903,5627
+9/30/18,98022,WA,Seattle-Tacoma-Bellevue,King,Enumclaw,5204,2078,-0.024413146,7216
+9/30/18,98043,WA,Seattle-Tacoma-Bellevue,Snohomish,Mountlake Terrace,5313,2004,-0.004470939,6654
+9/30/18,98520,WA,Aberdeen,Grays Harbor,Aberdeen,5320,949,-0.003151261,7902
+9/30/18,98296,WA,Seattle-Tacoma-Bellevue,Snohomish,Snohomish,5335,2441,-0.037080868,8855
+9/30/18,99403,WA,Lewiston,Asotin,Clarkston,5466,1394,0.078112916,7058
+9/30/18,98368,WA,,Jefferson,Port Townsend,5474,1685,-0.00295858,7934
+9/30/18,98104,WA,Seattle-Tacoma-Bellevue,King,Seattle,5558,2258,-0.055230126,1599
+9/30/18,99212,WA,Spokane-Spokane Valley,Spokane,Spokane Valley,5559,1239,0.043807919,7393
+9/30/18,99004,WA,Spokane-Spokane Valley,Spokane,Cheney,5667,1337,0.018278751,4272
+9/30/18,98108,WA,Seattle-Tacoma-Bellevue,King,Seattle,5759,2327,-0.027986633,6498
+9/30/18,98005,WA,Seattle-Tacoma-Bellevue,King,Bellevue,5777,2822,-0.04983165,6215
+9/30/18,98264,WA,Bellingham,Whatcom,Lynden,5779,1565,-0.064554692,6916
+9/30/18,98506,WA,Olympia-Tumwater,Thurston,Olympia,5836,1644,0.005504587,6715
+9/30/18,98230,WA,Bellingham,Whatcom,Blaine,5852,1479,-0.035853977,7668
+9/30/18,98177,WA,Seattle-Tacoma-Bellevue,King,Shoreline,5900,2654,-0.064504759,7744
+9/30/18,98075,WA,Seattle-Tacoma-Bellevue,King,Sammamish,5938,3205,-0.053175775,7964
+9/30/18,98053,WA,Seattle-Tacoma-Bellevue,King,Redmond,5954,2734,-0.052339688,7937
+9/30/18,99202,WA,Spokane-Spokane Valley,Spokane,Spokane,6045,1064,0.051383399,6004
+9/30/18,98422,WA,Seattle-Tacoma-Bellevue,Pierce,Tacoma,6160,2026,0.021169355,7392
+9/30/18,98642,WA,Portland-Vancouver-Hillsboro,Clark,Ridgefield,6235,1959,-0.010106114,6817
+9/30/18,98686,WA,Portland-Vancouver-Hillsboro,Clark,Barberton,6282,1893,0.014469453,6266
+9/30/18,99217,WA,Spokane-Spokane Valley,Spokane,Spokane,6352,1243,0.049831081,5549
+9/30/18,98282,WA,Oak Harbor,Island,Camano Island,6355,1692,0.011356844,9357
+9/30/18,98136,WA,Seattle-Tacoma-Bellevue,King,Seattle,6365,2501,-0.073360504,6483
+9/30/18,98408,WA,Seattle-Tacoma-Bellevue,Pierce,Tacoma,6372,1517,0.012683578,7066
+9/30/18,99201,WA,Spokane-Spokane Valley,Spokane,Spokane,6399,1027,0.072025052,3484
+9/30/18,98332,WA,Seattle-Tacoma-Bellevue,Pierce,Gig Harbor,6539,2233,0.020566728,6555
+9/30/18,98942,WA,Yakima,Yakima,Selah,6558,1393,0.031851852,5588
+9/30/18,98274,WA,Mount Vernon-Anacortes,Skagit,Mount Vernon,6576,1734,0.024822695,6963
+9/30/18,98944,WA,Yakima,Yakima,Sunnyside,6652,1042,0.061099796,4403
+9/30/18,98057,WA,Seattle-Tacoma-Bellevue,King,Renton,6656,1946,-0.005620848,2771
+9/30/18,99037,WA,Spokane-Spokane Valley,Spokane,Spokane Valley,6815,1422,-0.056403451,4377
+9/30/18,99016,WA,Spokane-Spokane Valley,Spokane,Spokane Valley,6956,1404,-0.019553073,5009
+9/30/18,98467,WA,Seattle-Tacoma-Bellevue,Pierce,University Place,7014,2058,0.043610548,4399
+9/30/18,99353,WA,Kennewick-Richland,Benton,West Richland,7144,1597,-0.016625616,4600
+9/30/18,98045,WA,Seattle-Tacoma-Bellevue,King,North Bend,7194,2263,-0.037021277,5056
+9/30/18,98903,WA,Yakima,Yakima,Yakima,7233,1142,-0.002620087,5184
+9/30/18,98233,WA,Mount Vernon-Anacortes,Skagit,Burlington,7251,1635,0.013639182,4597
+9/30/18,98663,WA,Portland-Vancouver-Hillsboro,Clark,Vancouver,7265,1635,0.007393715,4938
+9/30/18,99344,WA,Othello,Adams,Othello,7323,1276,0.051937345,2640
+9/30/18,99338,WA,Kennewick-Richland,Benton,Kennewick,7456,1709,-0.013848817,4195
+9/30/18,98321,WA,Seattle-Tacoma-Bellevue,Pierce,Buckley,7500,1892,0.027144408,4502
+9/30/18,98660,WA,Portland-Vancouver-Hillsboro,Clark,Vancouver,7588,1593,0.006953224,3764
+9/30/18,99218,WA,Spokane-Spokane Valley,Spokane,Fairwood,7594,1462,0.007580979,3905
+9/30/18,98363,WA,Port Angeles,Clallam,Port Angeles,7668,1439,0.014809591,5572
+9/30/18,99114,WA,Spokane-Spokane Valley,Stevens,Colville,7753,1248,0.01216545,5334
+9/30/18,98065,WA,Seattle-Tacoma-Bellevue,King,Snoqualmie,7771,2513,-0.060560748,5573
+9/30/18,98070,WA,Seattle-Tacoma-Bellevue,King,Vashon,7787,2387,-0.0452,4939
+9/30/18,98390,WA,Seattle-Tacoma-Bellevue,Pierce,Sumner,7830,1730,0.010514019,3273
+9/30/18,98360,WA,Seattle-Tacoma-Bellevue,Pierce,Orting,7861,1790,0.014164306,4312
+9/30/18,98528,WA,Shelton,Mason,Belfair,7866,1494,0.021887825,3500
+9/30/18,98674,WA,Longview,Cowlitz,Woodland,7896,1680,-0.028340081,3401
+9/30/18,99006,WA,Spokane-Spokane Valley,Spokane,Deer Park,8020,1393,-0.005710207,3491
+9/30/18,98579,WA,Olympia-Tumwater,Thurston,Rochester,8024,1590,0.041257367,3225
+9/30/18,99350,WA,Kennewick-Richland,Benton,Prosser,8176,1324,0.00531511,2167
+9/30/18,99019,WA,Spokane-Spokane Valley,Spokane,Liberty Lake,8279,1648,-0.026004728,3641
+9/30/18,98823,WA,Moses Lake,Grant,Ephrata,8282,973,0.008290155,2880
+9/30/18,98250,WA,,San Juan,Friday Harbor,8325,1822,-0.065641026,3609
+9/30/18,98930,WA,Yakima,Yakima,Grandview,8351,1098,0.071219512,3248
+9/30/18,98550,WA,Aberdeen,Grays Harbor,Hoquiam,8370,949,0.054444444,4373
+9/30/18,98848,WA,Moses Lake,Grant,Quincy,8462,1245,0.076989619,3371
+9/30/18,98148,WA,Seattle-Tacoma-Bellevue,King,Burien,8582,2040,-0.019702066,2367
+9/30/18,98019,WA,Seattle-Tacoma-Bellevue,King,Duvall,8590,2440,-0.029435163,3831
+9/30/18,98346,WA,Bremerton-Silverdale,Kitsap,Kingston,8614,1790,-0.031385281,3552
+9/30/18,98077,WA,Seattle-Tacoma-Bellevue,King,Woodinville,8639,2845,-0.090473146,4516
+9/30/18,98948,WA,Yakima,Yakima,Toppenish,8648,921,-0.003246753,2601
+9/30/18,98951,WA,Yakima,Yakima,Wapato,8770,924,-0.018065887,2333
+9/30/18,98611,WA,Longview,Cowlitz,Castle Rock,8798,1349,-0.05,2971
+9/30/18,98424,WA,Seattle-Tacoma-Bellevue,Pierce,Fife,8836,1849,0.024376731,2598
+9/30/18,99324,WA,Walla Walla,Walla Walla,College Place,8859,1294,0.058919804,2352
+9/30/18,98541,WA,Aberdeen,Grays Harbor,Elma,8875,1067,-0.014773777,2817
+9/30/18,98354,WA,Seattle-Tacoma-Bellevue,Pierce,Milton,8876,1843,0.029608939,2077
+9/30/18,98403,WA,Seattle-Tacoma-Bellevue,Pierce,Tacoma,8965,1828,0.035694051,2844
+9/30/18,98569,WA,Aberdeen,Grays Harbor,Ocean Shores,9061,988,-0.123336291,5541
+9/30/18,98446,WA,Seattle-Tacoma-Bellevue,Pierce,Summit,9089,1708,0.005889282,3564
+9/30/18,98252,WA,Seattle-Tacoma-Bellevue,Snohomish,Granite Falls,9100,1698,0.006520451,2875
+9/30/18,98328,WA,Seattle-Tacoma-Bellevue,Pierce,Eatonville,9105,1714,0.035024155,3479
+9/30/18,98402,WA,Seattle-Tacoma-Bellevue,Pierce,Tacoma,9212,1543,0.016469038,1511
+9/30/18,98327,WA,Seattle-Tacoma-Bellevue,Pierce,Dupont,9244,1805,0.032018296,3309
+9/30/18,98418,WA,Seattle-Tacoma-Bellevue,Pierce,Tacoma,9271,1467,0.026592022,3738
+9/30/18,99156,WA,Spokane-Spokane Valley,Pend Oreille,Newport,9287,1358,0.005181347,2842
+9/30/18,99320,WA,Kennewick-Richland,Benton,Benton City,9349,1335,0.033281734,1336
+9/30/18,99204,WA,Spokane-Spokane Valley,Spokane,Spokane,9352,1143,0.019625335,1941
+9/30/18,99021,WA,Spokane-Spokane Valley,Spokane,Mead,9363,1493,-0.00731383,2682
+9/30/18,98620,WA,,Klickitat,Goldendale,9397,1350,0.0546875,3192
+9/30/18,99026,WA,Spokane-Spokane Valley,Stevens,Nine Mile Falls,9411,1499,-0.027255029,3767
+9/30/18,98580,WA,Seattle-Tacoma-Bellevue,Pierce,Roy,9424,1845,0.055491991,2624
+9/30/18,98922,WA,Ellensburg,Kittitas,Cle Elum,9429,1803,0.166990291,5159
+9/30/18,98239,WA,Oak Harbor,Island,Coupeville,9534,1659,0.011585366,4009
+9/30/18,98337,WA,Bremerton-Silverdale,Kitsap,Bremerton,9543,1400,0.065449011,2490
+9/30/18,98563,WA,Aberdeen,Grays Harbor,Montesano,9579,1001,-0.087511395,2875
+9/30/18,98329,WA,Seattle-Tacoma-Bellevue,Pierce,Gig Harbor,9666,1796,0.113453193,4067
+9/30/18,99005,WA,Spokane-Spokane Valley,Spokane,Colbert,9699,1768,0.065060241,2993
+9/30/18,98260,WA,Oak Harbor,Island,Langley,9783,1709,-0.002917153,3218
+9/30/18,99022,WA,Spokane-Spokane Valley,Spokane,Medical Lake,9826,1329,0.011415525,2731
+9/30/18,98629,WA,Portland-Vancouver-Hillsboro,Clark,La Center,9857,1948,-0.000513084,2552
+9/30/18,98589,WA,Olympia-Tumwater,Thurston,Tenino,9861,1611,0.022208122,2574
+9/30/18,98465,WA,Seattle-Tacoma-Bellevue,Pierce,Tacoma,9905,1791,0.028128588,2054
+9/30/18,98236,WA,Oak Harbor,Island,Clinton,10126,1740,0.01635514,3399
+9/30/18,98247,WA,Bellingham,Whatcom,Everson,10201,1499,-0.098616957,2296
+9/30/18,98249,WA,Oak Harbor,Island,Freeland,10204,1725,0.000580046,3155
+9/30/18,98388,WA,Seattle-Tacoma-Bellevue,Pierce,Steilacoom,10301,1838,0.040770102,2384
+9/30/18,98625,WA,Longview,Cowlitz,Kalama,10365,1593,0.028405423,2106
+9/30/18,98014,WA,Seattle-Tacoma-Bellevue,King,Carnation,10421,2435,-0.027555911,2349
+9/30/18,98815,WA,Wenatchee,Chelan,Cashmere,10463,1555,0.015676029,2032
+9/30/18,98365,WA,,Jefferson,Port Ludlow,10490,1775,-0.006159015,3369
+9/30/18,98640,WA,,Pacific,Ocean Park,10516,1322,-0.037144938,1235
+9/30/18,98672,WA,,Klickitat,White Salmon,10532,1800,0.010668164,1968
+9/30/18,99027,WA,Spokane-Spokane Valley,Spokane,Otis Orchards-East Farms,10560,1418,-0.047043011,1755
+9/30/18,98577,WA,,Pacific,Raymond,10583,1281,0.086513995,1623
+9/30/18,98294,WA,Seattle-Tacoma-Bellevue,Snohomish,Sultan,10634,1738,0.006369427,2307
+9/30/18,98596,WA,Centralia,Lewis,Winlock,10855,1249,0.115178571,1651
+9/30/18,99001,WA,Spokane-Spokane Valley,Spokane,Airway Heights,10885,1199,0.011814346,1083
+9/30/18,98331,WA,Port Angeles,Clallam,Forks,10917,1193,-0.075193798,1385
+9/30/18,99141,WA,Spokane-Spokane Valley,Stevens,Kettle Falls,10918,1250,0.026272578,2391
+9/30/18,98953,WA,Yakima,Yakima,Zillah,10941,1195,-0.019688269,1952
+9/30/18,99109,WA,Spokane-Spokane Valley,Stevens,Chewelah,11183,1247,0.014646054,2136
+9/30/18,98380,WA,Bremerton-Silverdale,Kitsap,Seabeck,11204,1858,-0.057331304,1723
+9/30/18,98936,WA,Yakima,Yakima,Moxee,11293,1284,0.019047619,1688
+9/30/18,98281,WA,Bellingham,Whatcom,Point Roberts,11309,1527,-0.085080887,2700
+9/30/18,98047,WA,Seattle-Tacoma-Bellevue,King,Pacific,11385,1905,0.030286641,1662
+9/30/18,98576,WA,Olympia-Tumwater,Thurston,Rainier,11459,1593,0.041176471,1599
+9/30/18,98245,WA,,San Juan,Eastsound,11485,1841,-0.055897436,1870
+9/30/18,99003,WA,Spokane-Spokane Valley,Spokane,Chattaroy,11513,1616,0.026031746,1112
+9/30/18,98010,WA,Seattle-Tacoma-Bellevue,King,Black Diamond,11533,2221,-0.007596068,1769
+9/30/18,98359,WA,Bremerton-Silverdale,Kitsap,Olalla,11553,1819,-0.051121544,1453
+9/30/18,98349,WA,Seattle-Tacoma-Bellevue,Pierce,Lakebay,11602,1640,0.043921069,2177
+9/30/18,98257,WA,Mount Vernon-Anacortes,Skagit,La Conner,11689,1694,0.028536733,1971
+9/30/18,98443,WA,Seattle-Tacoma-Bellevue,Pierce,Waller,11713,1834,0.036158192,1957
+9/30/18,98251,WA,Seattle-Tacoma-Bellevue,Snohomish,Gold Bar,11726,1668,0.015834348,1480
+9/30/18,98339,WA,,Jefferson,Port Hadlock,11735,1519,0.018779343,1137
+9/30/18,99025,WA,Spokane-Spokane Valley,Spokane,Newman Lake,11751,1399,-0.020993702,1835
+9/30/18,98675,WA,Portland-Vancouver-Hillsboro,Clark,Yacolt,11811,1881,0.020065076,1743
+9/30/18,98024,WA,Seattle-Tacoma-Bellevue,King,Fall City,11817,2507,-0.064552239,1653
+9/30/18,98631,WA,,Pacific,Long Beach,11819,1351,-0.068275862,818
+9/30/18,99349,WA,Moses Lake,Grant,Mattawa,11863,1179,0.062162162,1807
+9/30/18,98266,WA,Bellingham,Whatcom,Maple Falls,11892,1319,0.094605809,942
+9/30/18,98295,WA,Bellingham,Whatcom,Sumas,12060,1445,0.00837404,820
+9/30/18,98237,WA,Mount Vernon-Anacortes,Skagit,Concrete,12157,1590,0.282258065,2714
+9/30/18,98937,WA,Yakima,Yakima,Naches,12162,1059,0.066465257,3358
+9/30/18,98591,WA,Centralia,Lewis,Toledo,12195,1290,0.12173913,1055
+9/30/18,98851,WA,Moses Lake,Grant,Soap Lake,12262,906,0.024886878,1324
+9/30/18,98524,WA,Shelton,Mason,Allyn,12332,1515,-0.008507853,1564
+9/30/18,99111,WA,Pullman,Whitman,Colfax,12358,1199,0.190665343,980
+9/30/18,98333,WA,Seattle-Tacoma-Bellevue,Pierce,Fox Island,12435,2416,0.016835017,2144
+9/30/18,98570,WA,Centralia,Lewis,Onalaska,12453,1291,0.120659722,925
+9/30/18,98232,WA,Mount Vernon-Anacortes,Skagit,Bow,12573,1795,-0.037017167,1499
+9/30/18,99122,WA,,Lincoln,Davenport,12574,1254,0.051131601,1720
+9/30/18,98051,WA,Seattle-Tacoma-Bellevue,King,Ravensdale,12583,2284,-0.012110727,1021
+9/30/18,98261,WA,,San Juan,Eastsound,12661,1821,-0.055497925,1511
+9/30/18,98932,WA,Yakima,Yakima,Granger,12819,941,-0.007383966,871
+9/30/18,99009,WA,Spokane-Spokane Valley,Spokane,Elk,12926,1398,-0.022377622,686
+9/30/18,99166,WA,,Ferry,Republic,12927,1237,0.055460751,1065
+9/30/18,98557,WA,Aberdeen,Grays Harbor,McCleary,12983,1118,0.045837231,1205
+9/30/18,98546,WA,Shelton,Mason,Grapeview,13080,1499,-0.034149485,1585
+9/30/18,98612,WA,,Wahkiakum,Cathlamet,13146,1543,-0.017197452,1138
+9/30/18,98039,WA,Seattle-Tacoma-Bellevue,King,Medina,13149,8010,-0.060851214,1231
+9/30/18,98392,WA,Bremerton-Silverdale,Kitsap,Suquamish,13202,1529,-0.013548387,1140
+9/30/18,98648,WA,Portland-Vancouver-Hillsboro,Skamania,Stevenson,13241,1615,-0.009202454,1180
+9/30/18,98240,WA,Bellingham,Whatcom,Custer,13252,1589,-0.097671777,768
+9/30/18,99323,WA,Walla Walla,Walla Walla,Burbank,13377,1380,-0.010043042,579
+9/30/18,98601,WA,Portland-Vancouver-Hillsboro,Clark,Amboy,13477,1895,-0.001580611,658
+9/30/18,98548,WA,Shelton,Mason,Hoodsport,13489,1206,0.057894737,1385
+9/30/18,98340,WA,Bremerton-Silverdale,Kitsap,Hansville,13517,1896,-0.044354839,1464
+9/30/18,98857,WA,Moses Lake,Grant,Warden,13575,924,0.002169197,1305
+9/30/18,99148,WA,Spokane-Spokane Valley,Stevens,Loon Lake,13596,1391,-0.01556971,2065
+9/30/18,98244,WA,Bellingham,Whatcom,Deming,13725,1437,0.005598321,1632
+9/30/18,98935,WA,Yakima,Yakima,Mabton,13875,997,0.025720165,558
+9/30/18,98610,WA,Portland-Vancouver-Hillsboro,Skamania,Carson,13940,1460,0.021693492,980
+9/30/18,98592,WA,Shelton,Mason,Union,14027,1476,0.023578363,1234
+9/30/18,98253,WA,Oak Harbor,Island,Greenbank,14066,1686,0.01018574,1447
+9/30/18,98564,WA,Centralia,Lewis,Mossyrock,14082,1183,0.19979716,1395
+9/30/18,98376,WA,,Jefferson,Quilcene,14129,1577,0.024691358,1107
+9/30/18,99326,WA,Kennewick-Richland,Franklin,Connell,14139,1134,-0.090617482,525
+9/30/18,99169,WA,Othello,Adams,Ritzville,14151,1170,0.088372093,783
+9/30/18,98356,WA,Centralia,Lewis,Morton,14233,1141,0.17025641,886
+9/30/18,98241,WA,Seattle-Tacoma-Bellevue,Snohomish,Darrington,14251,1620,0.052631579,803
+9/30/18,98947,WA,Yakima,Yakima,Tieton,14324,1144,0.011494253,719
+9/30/18,98325,WA,,Jefferson,Chimacum,14341,1599,0.001879699,514
+9/30/18,98568,WA,Aberdeen,Grays Harbor,Oakville,14443,997,-0.118479222,596
+9/30/18,98537,WA,Aberdeen,Grays Harbor,Cosmopolis,14613,997,-0.112199466,439
+9/30/18,98394,WA,Seattle-Tacoma-Bellevue,Pierce,Vaughn,14659,1886,0.053042993,476
+9/30/18,98828,WA,Wenatchee,Chelan,Malaga,14736,1490,0.006756757,775
+9/30/18,98320,WA,,Jefferson,Brinnon,14745,1488,0.04494382,1005
+9/30/18,98588,WA,Shelton,Mason,Tahuya,14762,1441,0.100840336,904
+9/30/18,98377,WA,Centralia,Lewis,Randle,14851,1227,0.244421907,577
+9/30/18,98635,WA,,Klickitat,Lyle,14974,1522,0.018060201,792
+9/30/18,98822,WA,Wenatchee,Chelan,Entiat,14994,1449,-0.012269939,820
+9/30/18,99181,WA,Spokane-Spokane Valley,Stevens,Valley,15005,1191,0.081743869,1056
+9/30/18,98303,WA,Seattle-Tacoma-Bellevue,Pierce,South Hill,15031,1602,0.034215623,1178
+9/30/18,98847,WA,Wenatchee,Chelan,Peshastin,15257,1497,-0.025390625,805
+9/30/18,99133,WA,Moses Lake,Grant,Grand Coulee,15293,883,-0.008978676,1134
+9/30/18,99343,WA,Kennewick-Richland,Franklin,Mesa,15298,1144,-0.080385852,487
+9/30/18,99402,WA,Lewiston,Asotin,Asotin,15323,1443,0.004175365,643
+9/30/18,99173,WA,Spokane-Spokane Valley,Stevens,Springdale,15434,1203,0.0543383,598
+9/30/18,98342,WA,Bremerton-Silverdale,Kitsap,Indianola,15488,1864,-0.053326562,697
+9/30/18,98361,WA,Centralia,Lewis,Packwood,15673,1107,0.195464363,808
+9/30/18,98938,WA,Yakima,Yakima,Outlook,15824,1127,0.061205273,429
+9/30/18,98262,WA,Bellingham,Whatcom,Lummi Island,15848,1620,-0.060869565,730
+9/30/18,99110,WA,Spokane-Spokane Valley,Stevens,Clayton,15886,1333,-0.017686072,581
+9/30/18,99101,WA,Spokane-Spokane Valley,Stevens,Addy,15908,1246,0.02047502,568
+9/30/18,99185,WA,,Lincoln,Wilbur,15909,1250,0.039068994,619
+9/30/18,98941,WA,Ellensburg,Kittitas,Roslyn,15932,1412,0.010014306,791
+9/30/18,98645,WA,Longview,Cowlitz,Silverlake,16084,1493,0.002686367,466
+9/30/18,99119,WA,Spokane-Spokane Valley,Pend Oreille,Cusick,16132,1295,-0.003846154,488
+9/30/18,99123,WA,Moses Lake,Grant,Electric City,16178,973,0.042872454,818
+9/30/18,98358,WA,,Jefferson,Nordland,16195,1880,-0.024390244,520
+9/30/18,98304,WA,Seattle-Tacoma-Bellevue,Pierce,Ashford,16215,1236,0.103571429,542
+9/30/18,98351,WA,Seattle-Tacoma-Bellevue,Pierce,Longbranch,16284,1694,0.04503393,687
+9/30/18,98940,WA,Ellensburg,Kittitas,Ronald,16368,1893,0.242941563,411
+9/30/18,98555,WA,Shelton,Mason,Lilliwaup,16379,1297,0.044283414,437
+9/30/18,98267,WA,Mount Vernon-Anacortes,Skagit,Marblemount,16465,1593,0.263283109,511
