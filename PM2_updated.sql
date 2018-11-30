@@ -192,6 +192,42 @@ LOAD DATA LOCAL INFILE '/Users/Sunshinefield/Documents/NEU MS CS/CS5200 - Databa
 	AverageIncome,
 	MedianAge)
   SET ResidentsId=NULL;
- 
- 
+  
+
+DROP TABLE IF EXISTS RentalWithIncome;
+CREATE TABLE RentalWithIncome(
+	RentalWithIncomeId INT AUTO_INCREMENT,
+    City VARCHAR(50),
+    RentalPrice Decimal(6,4),
+    TotalPopulation INT,
+	AvgIncome INT,
+    CONSTRAINT pk_RentalWithIncome_RentalWithIncomeId
+    PRIMARY KEY(RentalWithIncomeId)
+);
+
+DROP TABLE IF EXISTS WashingtonIncome;
+CREATE TABLE WashingtonIncome(
+	IncomeId INT AUTO_INCREMENT,
+    ZipCode INT,
+    City VARCHAR(50),
+    State VARCHAR(50),
+    Population INT,
+    AvgIncome INT,
+    NationalRank INT,
+    CONSTRAINT pk_WashingtonIncome_IncomeId
+    PRIMARY KEY(IncomeId)
+);
+
+LOAD DATA LOCAL INFILE '/Users/Sunshinefield/Documents/NEU MS CS/CS5200 - Database Management/CS5200---AboutSeattle/test.csv' INTO TABLE WashingtonIncome
+  FIELDS TERMINATED BY ','
+  LINES TERMINATED BY '\n'
+  IGNORE 1 LINES
+    (ZipCode,
+	City,
+	State,
+    Population,
+    AvgIncome,
+    NationalRank);
+  
+
  
