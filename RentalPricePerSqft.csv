@@ -1,0 +1,84 @@
+RegionName,City,State,Metro,CountyName,2013,2014,2015,2016,2017,2018
+98052,Redmond,WA,Seattle-Tacoma-Bellevue,King,1.418,1.362,1.401,1.514,1.629,1.669
+98012,Bothell,WA,Seattle-Tacoma-Bellevue,Snohomish,1.134,1.098,1.143,1.205,1.248,1.268
+98103,Seattle,WA,Seattle-Tacoma-Bellevue,King,1.776,1.842,1.901,2.086,2.140,2.240
+99301,Pasco,WA,Kennewick-Richland,Franklin,0.000,0.000,0.000,0.000,0.962,0.971
+98115,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,1.779,1.978,1.978
+98682,Vancouver,WA,Portland-Vancouver-Hillsboro,Clark,0.000,0.000,0.000,0.000,1.072,1.089
+98133,Shoreline,WA,Seattle-Tacoma-Bellevue,King,0.000,1.364,1.478,1.581,1.716,1.751
+98122,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,2.390,2.532,2.545
+98208,Seattle Hill-Silver Firs,WA,Seattle-Tacoma-Bellevue,Snohomish,0.000,0.000,0.000,0.000,1.267,1.344
+98034,Kirkland,WA,Seattle-Tacoma-Bellevue,King,1.338,1.300,1.426,1.571,1.681,1.702
+98225,Bellingham,WA,Bellingham,Whatcom,0.000,0.000,0.000,0.000,1.388,1.516
+98109,Seattle,WA,Seattle-Tacoma-Bellevue,King,2.270,2.178,2.411,2.500,2.680,2.670
+98125,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.696,1.714
+98661,Vancouver,WA,Portland-Vancouver-Hillsboro,Clark,0.000,0.000,0.000,0.000,1.123,1.147
+98391,Bonney Lake,WA,Seattle-Tacoma-Bellevue,Pierce,0.000,0.000,0.000,0.000,1.072,1.086
+98270,Marysville,WA,Seattle-Tacoma-Bellevue,Snohomish,0.000,0.000,0.000,0.000,1.237,1.305
+98501,Olympia,WA,Olympia-Tumwater,Thurston,0.000,0.000,0.000,0.000,0.967,1.044
+98004,Bellevue,WA,Seattle-Tacoma-Bellevue,King,1.754,1.692,1.887,1.969,2.015,2.096
+98118,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.627,1.669
+98204,Paine Field-Lake Stickney,WA,Seattle-Tacoma-Bellevue,Snohomish,0.000,0.000,0.000,0.000,1.339,1.328
+98023,Federal Way,WA,Seattle-Tacoma-Bellevue,King,0.980,0.950,1.030,1.047,1.110,1.158
+98387,Spanaway,WA,Seattle-Tacoma-Bellevue,Pierce,0.808,0.814,0.828,0.858,0.933,0.988
+98258,Lake Stevens,WA,Seattle-Tacoma-Bellevue,Snohomish,0.000,0.000,0.000,0.000,1.224,1.292
+98837,Moses Lake,WA,Moses Lake,Grant,0.000,0.000,0.000,0.000,0.878,0.929
+98277,Oak Harbor,WA,Oak Harbor,Island,0.785,0.790,0.821,0.869,1.016,1.025
+98033,Kirkland,WA,Seattle-Tacoma-Bellevue,King,1.541,1.506,1.643,1.742,1.942,1.852
+98042,Kent,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.125,1.143
+99362,Walla Walla,WA,Walla Walla,Walla Walla,0.000,0.000,0.000,0.000,0.954,0.998
+98102,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,2.304,2.582,2.597
+98092,Auburn,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.995,1.030,1.124
+98058,Renton,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.229,1.238
+98036,Lynnwood,WA,Seattle-Tacoma-Bellevue,Snohomish,0.000,0.000,0.000,0.000,1.326,1.432
+98503,Lacey,WA,Olympia-Tumwater,Thurston,0.817,0.814,0.854,0.897,0.979,1.040
+98026,Edmonds,WA,Seattle-Tacoma-Bellevue,Snohomish,0.000,0.000,0.000,1.567,1.541,1.604
+98502,Olympia,WA,Olympia-Tumwater,Thurston,0.000,0.000,0.000,0.000,0.991,1.037
+98087,Lynnwood,WA,Seattle-Tacoma-Bellevue,Snohomish,0.000,0.000,0.000,0.000,1.320,1.316
+98374,South Hill,WA,Seattle-Tacoma-Bellevue,Pierce,0.832,0.836,0.845,0.877,0.941,1.002
+98056,Renton,WA,Seattle-Tacoma-Bellevue,King,1.129,1.095,1.194,1.245,1.360,1.404
+98366,Port Orchard,WA,Bremerton-Silverdale,Kitsap,0.000,0.000,0.000,0.000,0.998,1.048
+98198,Des Moines,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.366,1.390
+98107,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,2.176,2.273,2.317
+98117,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,1.879,1.996,2.091
+98006,Bellevue,WA,Seattle-Tacoma-Bellevue,King,1.124,1.146,1.201,1.303,1.361,1.413
+98155,Shoreline,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.667,1.735
+98059,Renton,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.200,1.256
+98312,Bremerton,WA,Bremerton-Silverdale,Kitsap,0.000,0.000,0.000,0.000,1.257,1.328
+98031,Kent,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.090,1.143
+98203,Everett,WA,Seattle-Tacoma-Bellevue,Snohomish,0.000,0.000,0.000,0.000,1.286,1.372
+98121,Seattle,WA,Seattle-Tacoma-Bellevue,King,2.549,2.717,2.873,2.953,3.175,3.169
+98116,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,2.082,2.074
+98144,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.973,2.099
+98662,Five Corners,WA,Portland-Vancouver-Hillsboro,Clark,0.000,0.000,0.000,0.000,1.080,1.081
+98030,Kent,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.222,1.246
+98513,Lacey,WA,Olympia-Tumwater,Thurston,0.814,0.809,0.815,0.862,0.926,0.958
+98027,Issaquah,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.620,1.586
+98119,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,2.300,2.263
+98038,Maple Valley,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.180,1.219
+98498,Lakewood,WA,Seattle-Tacoma-Bellevue,Pierce,0.000,0.000,0.000,0.000,1.135,1.222
+98029,Issaquah,WA,Seattle-Tacoma-Bellevue,King,1.196,1.271,1.368,1.391,1.481,1.495
+98007,Bellevue,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,1.540,1.678,1.663
+98607,Camas,WA,Portland-Vancouver-Hillsboro,Clark,0.000,0.000,0.000,0.962,1.052,1.077
+98445,Parkland,WA,Seattle-Tacoma-Bellevue,Pierce,0.000,0.000,0.000,0.000,1.009,1.048
+98001,Auburn,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.073,1.127
+98665,Hazel Dell North,WA,Portland-Vancouver-Hillsboro,Clark,0.000,0.000,0.000,0.000,1.048,1.067
+98101,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,3.194,3.215
+98112,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,2.255,2.305
+98405,Tacoma,WA,Seattle-Tacoma-Bellevue,Pierce,0.000,0.000,0.000,0.000,1.305,1.385
+98040,Mercer Island,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.725,1.763
+98685,Salmon Creek,WA,Portland-Vancouver-Hillsboro,Clark,0.000,0.000,0.000,0.000,1.011,1.082
+98110,Bainbridge Island,WA,Bremerton-Silverdale,Kitsap,0.000,0.000,0.000,0.000,1.679,1.708
+98106,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.738,1.770
+98375,South Hill,WA,Seattle-Tacoma-Bellevue,Pierce,0.766,0.763,0.792,0.817,0.897,0.949
+98516,Lacey,WA,Olympia-Tumwater,Thurston,0.000,0.000,0.000,0.855,0.963,0.989
+98008,Bellevue,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,1.372,1.488,1.544
+98199,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,2.048,2.010
+98406,Tacoma,WA,Seattle-Tacoma-Bellevue,Pierce,0.000,0.000,0.000,0.000,1.541,1.564
+98055,Renton,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.286,1.299
+98028,Kenmore,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.286,1.329
+98074,Sammamish,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,1.305,1.286,1.321
+98005,Bellevue,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.744,1.722
+98075,Sammamish,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.218,1.218
+98136,Seattle,WA,Seattle-Tacoma-Bellevue,King,0.000,0.000,0.000,0.000,1.795,2.060
+98327,Dupont,WA,Seattle-Tacoma-Bellevue,Pierce,0.000,0.000,0.000,0.920,0.975,1.003
